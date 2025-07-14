@@ -144,9 +144,10 @@ footer {
 }
 
 
-#about ul li {
-    margin-bottom: 5px;
+#about p {
+    line-height: 1.8;
 }
+
 #skills ul li {
     margin-bottom: 5px;
 }
