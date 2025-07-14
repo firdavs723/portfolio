@@ -142,6 +142,10 @@ footer {
     padding: 20px;
     background-color: #f1f1f1; /* Footer foni */
 }
+.about-text p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
 
 #skills ul li {
     margin-bottom: 5px;
