@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Firdavs | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="darkToggle">Dark mode</button>
+  <header>
+    <div class="overlay">
+      <h1>Firdavs Ramazonov</h1>
+      <p>Data Analyst | Excel, SQL, Power BI</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#languages">Languages</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am currently studying Data Analytics at PDP University. I specialize in turning data into actionable insights. My goal is to become a Data Analyst who supports smart decision-making in business environments.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Power BI – PowerQuery, Data Modeling, DAX, Visualization</li>
+      <li>Excel – PivotTables, Formulas, Data Cleaning</li>
+      <li>SQL – PostgreSQL, basic</li>
+      <li>Tableau – Basic</li>
+      <li>Python – Basic data analysis with pandas</li>
+    </ul>
+  </section>
+
+  <section id="languages">
+    <h2>Languages</h2>
+    <ul>
+      <li>Uzbek – Native</li>
+      <li>English – Intermediate</li>
+      <li>Tajik – Proficiency</li>
+      
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <img src="images/img3.png" alt="Car Sales Dashboard" class="project-img">
+      <h3>Car Sales Dashboard (Excel)</h3>
+      <p><strong>Tools:</strong> Excel</p>
+      <p>Dashboard using PivotTables and linear charts for sales insights.</p>
+      <a href="files/car sales.xlsx" download>Download Excel</a>
+    </div>
+
+    <div class="project">
+      <img src="images/img4.png" alt="Furniture Sales" class="project-img">
+      <h3>Furniture Sales Analysis Dashboard (Excel)</h3>
+      <p><strong>Tools:</strong> Excel</p>
+      <p>Historical and Forecast Analysis</p>
+      <a href="files/superstore excel.xlsx" download>Download Excel</a>
+    </div>
+
+
+
+    
+    <div class="project">
+      <img src="images/img1.png" alt="Furniture Sales Improved version" class="project-img">
+      <h3>Furniture Sales Improved version (Power BI)</h3>
+      <p><strong>Tools:</strong> Power BI</p>
+      <p>Performance Dashboard</p>
+      <a href="files/superstore.pbix" download>Download PBIX</a>
+    </div>
+
+
+    <div class="project">
+      <img src="images/img2.png" alt="Fresh-Mart KPI Dashboard" class="project-img">
+      <h3>Sales (Power BI)</h3>
+      <p><strong>Tools:</strong> Power BI</p>
+      <p> Retail Sales KPI Dashboard using DAX</p>
+      <a href="files/fresh mart.pbix" download>Download PBIX</a>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: firdavsramazonov804@gmail.com</p>
+    <p>Phone: +998930835485</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/firdavs-ramazonov" target="_blank">linkedin.com/in/firdavs-ramazonov</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Firdavs – Data Analyst Portfolio
+  </footer>
+  <script>
+    const toggle = document.getElementById("darkToggle");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+</body>
+</html>
