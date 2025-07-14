@@ -144,9 +144,10 @@ footer {
 }
 
 
-#about p {
-    line-height: 5px;
+#about {
+  margin-bottom: 16px; /* yoki 20px */
 }
+
 
 #skills ul li {
     margin-bottom: 5px;
