@@ -142,3 +142,7 @@ footer {
     padding: 20px;
     background-color: #f1f1f1; /* Footer foni */
 }
+
+#certificates ul li {
+    margin-bottom: 15px;
+}
