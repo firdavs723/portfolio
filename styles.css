@@ -4,6 +4,10 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+
+
+
+
 }
 
 #darkToggle {
@@ -21,30 +25,33 @@ body {
 
 /* DARK MODE STYLES */
 .dark-mode {
-    background-color: #121212;
-    color: #eee;
+    background-color: #121212; /* Umumiy fon */
+    color: #eee; /* Umumiy matn rangi */
 }
 
 .dark-mode nav,
 .dark-mode section,
 .dark-mode footer {
-    background-color: rgba(30, 30, 30, 0.9);
+    background-color: rgba(30, 30, 30, 0.9); /* Nav, section, footer fonlari */
 }
 
 .dark-mode a {
-    color: #70a6ff;
+    color: #70a6ff; /* Dark mode'dagi havolalar rangi */
 }
 
+/* OPTIONAL: DARK MODE BUTTON COLOR IN DARK MODE */
 .dark-mode #darkToggle {
     background-color: #eee;
     color: #111;
 }
 
+/* MUHIM: BU YERDA .project UCHUN DARK MODE QO'SHILDI */
 .dark-mode .project {
-    background-color: #1e1e1e;
-    border-color: #555;
-    color: #eee;
+    background-color: #1e1e1e; /* Dark mode'da .project ning foni */
+    border-color: #555; /* Dark mode'da .project ning chegarasi */
+    color: #eee; /* Dark mode'da .project ichidagi matn rangi (agar meros qilib olinmasa) */
 }
+
 
 /* Header qismi */
 header {
@@ -53,7 +60,7 @@ header {
     background-position: center;
     position: relative;
     height: 300px;
-    color: white;
+    color: white; /* Bu rang headerning overlay qismi ichidagi matnga ta'sir qiladi */
     text-align: center;
     display: flex;
     align-items: center;
@@ -85,28 +92,15 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #3f54c0;
+    color: #3f54c0; /* Navigatsiya havolalari rangi */
     font-weight: bold;
 }
 
 /* Umumiy section stillari */
 section {
     max-width: 800px;
-    margin: 0 auto 40px auto; /* pastdan 40px oraliq */
+    margin: 40px auto;
     padding: 0 20px;
-}
-
-/* About p taglari uchun chiroyli satr oraliqlari */
-#about p {
-    line-height: 1.8;
-    margin-bottom: 10px;
-}
-
-/* Skills, Languages, Certificates elementlar orasiga oraliq */
-#skills ul li,
-#languages ul li,
-#certificates ul li {
-    margin-bottom: 5px;
 }
 
 /* Project kartalari */
@@ -114,7 +108,7 @@ section {
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 30px;
-    background-color: white;
+    background-color: white; /* Light mode'da .project ning foni */
     border-radius: 10px;
     text-align: center;
 }
@@ -130,8 +124,8 @@ section {
 .project a {
     display: inline-block;
     margin-top: 10px;
-    color: white;
-    background-color: #3f54c0;
+    color: white; /* Project ichidagi tugma matni rangi */
+    background-color: #3f54c0; /* Project ichidagi tugma foni */
     padding: 8px 16px;
     border-radius: 6px;
     text-decoration: none;
@@ -146,5 +140,15 @@ section {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /* Footer foni */
+}
+
+#skills ul li {
+    margin-bottom: 5px;
+}
+#languages ul li{
+    margin-bottom: 5px;
+}
+#certificates ul li {
+    margin-bottom: 5px;
 }
