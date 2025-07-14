@@ -143,6 +143,16 @@ footer {
     background-color: #f1f1f1; /* Footer foni */
 }
 
+
+#about ul li {
+    margin-bottom: 5px;
+}
+#skills ul li {
+    margin-bottom: 5px;
+}
+#languages ul li{
+    margin-bottom: 5px;
+}
 #certificates ul li {
     margin-bottom: 5px;
 }
